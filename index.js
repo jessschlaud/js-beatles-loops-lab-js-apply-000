@@ -5,3 +5,11 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return words
 }
+
+function johnLennonFacts(exclamation) {
+  var words = []
+  for(var i=0; i < exclamation.length; i++) {
+    words[i] = exclamation[i] + "!!!"
+  }
+  return words
+}
