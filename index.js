@@ -1,7 +1,7 @@
 theBeatlesPlay(musicians, instruments) {
-  var strings[]
+  var words[]
   for(i=0; i < musicians.length; i++) {
-    strings[] = musicians[i] + " plays " + instruments[i]
+    words[i] = musicians[i] + " plays " + instruments[i]
   }
-  return strings
+  return words
 }
