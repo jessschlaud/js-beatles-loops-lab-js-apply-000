@@ -17,9 +17,6 @@ function johnLennonFacts(exclamation) {
 function iLoveTheBeatles(number) {
   var words = []
   if(number === 7) {
-    for(var i=0; i < number; i++) {
-      words[i] = "I love the Beatles!"
-    }
   }
   else {
     words[0] = "I love the Beatles!"
